@@ -1,73 +1,79 @@
-body {
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
     background-color: #362c52;
-    /* margin: 0; */
+  }
+  
+  .main {
     display: flex;
-}
-
-.main {
-    width: 100vw;
-    height: auto;
+    height: 100vh;
+    align-items: center;
+  }
+  
+  .box-login {
     display: flex;
     justify-content: center;
-    /* flex-direction: row; */
-}
-
-.right-login {
-    /* background-color: #463625; */
-    background-color: #e07c11;
-display: flex;
-width: 50%;
-height: 50%;
-align-self: center;
-}
-
-.left-login {
-    background-color: #dce011;
-    width: 50%;
-
-}
-
-input {
-    /* width: 80%; */
+    width: 100%;
+    align-items: center;
+  }
+  
+  .right-login {
+    background-color: #514572;
+    border: 2px solid #514572;
+    border-radius: 10px;
+  }
+  
+  .left-login {
+    color: white;
+    margin: 30px;
+  }
+  
+  .main-login {
+    padding: 30px;
+  }
+  
+  input {
     width: 80%;
     padding: 0;
-    /* margin: 0; */
-    /* border-radius: none; */
     background-color: #514572;
     border: none;
-
-}
-
-h1 {
+  }
+  
+  h1 {
     text-align: center;
     text-transform: uppercase;
-}
-
-label {
+  }
+  
+  label {
     margin-bottom: 5px;
-    
-}
-
-.usuario {
+  }
+  
+  .usuario {
     display: flex;
     flex-direction: column;
     outline: none;
     margin-bottom: 10px;
-}
-
-.senha {
+  }
+  
+  .senha {
     display: flex;
     flex-direction: column;
     outline: none;
     margin-bottom: 10px;
-}
-
-.btn-login {
+  }
+  
+  .btn-login {
     width: 80%;
-    background-color: #03FE8A;
+    background-color: #03fe8a;
     outline: none;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: bold;
     border: none;
-}
+  }
+  
